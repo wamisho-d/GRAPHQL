@@ -1,0 +1,38 @@
+# Run the app.py file
+# Open http://127.0.0.1:5000/graphql in the browser to access the GraphiQL interface.
+
+Example 1
+Delete a Genre:
+
+mutation {
+  deleteGenre(id: 1) {
+    ok
+  }
+}
+
+
+Example 2
+Create a Genre:
+
+mutation {
+  createGenre(name: "Action") {
+    genre {
+      id
+      name
+    }
+  }
+}
+
+Example 3
+Update a Genre:
+
+mutation {
+  updateGenre(id: 1, name: "Adventure") {
+    genre {
+      id
+      name
+    }
+  }
+}
+
+
