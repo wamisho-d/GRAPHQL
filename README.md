@@ -14,4 +14,4 @@ Support
 
 If you encounter any issues, please open a problem on the project's GitHub page. Author info
 
-Wamisho Debero - [wamisho-d/GraphQL API for a Movie Database]
+Wamisho Debero - [wamisho-d/GraphQL API for a Movie Database]https://github.com/wamisho-d/GRAPHQL
